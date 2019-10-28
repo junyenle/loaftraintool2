@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Loaf Raid Training Tool (Tsunami 2)</title>
+    <style>
+      canvas {
+        width: 300px;
+        height: 600px;
+        border: 5px solid black;
+      }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <br/><br/>
+    player name: <input type="text" id="setname" oninput="setName()">
+    <br/><br/>
+     <button onclick="setTank()">Tank</button> 
+     <button onclick="setHealer()">Healer</button> 
+     <button onclick="setDPS()">DPS</button> 
+  </body>
+  <script src="/static/game.js"></script>
+</html>
