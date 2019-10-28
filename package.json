@@ -1,6 +1,9 @@
 {
   "name": "tsu2",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
   "description": "leviathan tsunami 2 practice tool",
   "main": "index.js",
   "scripts": {
